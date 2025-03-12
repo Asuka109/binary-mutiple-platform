@@ -30,3 +30,9 @@ In this example, we use a JSON file as a simple demonstration, but this pattern 
 - Loading WebAssembly modules
 - Implementing platform-specific features
 - Managing native Node.js addons
+
+## Getting Started
+
+```shell
+$ bash bootstrap.sh
+```
