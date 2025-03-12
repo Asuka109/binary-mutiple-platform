@@ -1,0 +1,12 @@
+{
+  "name": "@asuka109/website",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@asuka109/binary": "workspace:*",
+    "vite": "^6.2.1"
+  }
+}

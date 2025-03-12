@@ -1,0 +1,15 @@
+{
+  "name": "@asuka109/cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@asuka109/binary": "workspace:*"
+  }
+}

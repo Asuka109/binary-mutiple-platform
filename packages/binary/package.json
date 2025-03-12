@@ -1,0 +1,24 @@
+{
+  "name": "@asuka109/binary",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc"
+  },
+  "imports": {
+    "#binary": {
+      "node": "./dist/binary.node.js",
+      "browser": "./dist/binary.bundle.js",
+      "types": "./dist/binary.bundle.d.ts"
+    }
+  },
+  "devDependencies": {
+    "typescript": "~5.7.2",
+    "vite": "^6.2.1",
+    "@types/node": "^18"
+  }
+}
